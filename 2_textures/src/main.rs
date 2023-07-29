@@ -3,7 +3,6 @@ use glium::{glutin, implement_vertex, Surface, uniform};
 use image;
 use std::io::Cursor;
 
-
 #[derive(Clone, Copy)]
 struct Vertex {
     position: [f32; 2],
